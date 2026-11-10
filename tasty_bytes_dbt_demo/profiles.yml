@@ -1,0 +1,19 @@
+tasty_bytes:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: STUDENT
+      database: TB_101
+      schema: dev
+      warehouse: STUDENT_WH
+    prod:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: STUDENT
+      database: TB_101
+      schema: prod
+      warehouse: STUDENT_WH
